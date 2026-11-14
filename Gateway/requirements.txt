@@ -1,0 +1,19 @@
+# ==============================================================================
+# Smart Workstation - Raspberry Pi Gateway Dependencies
+# Course: 2110356 Embedded System (CEDT), Chulalongkorn University
+# Target: Raspberry Pi 4 (Raspberry Pi OS) / Cross-Platform Simulation (Windows/macOS/Linux)
+# ==============================================================================
+
+# IoT Messaging & Webhooks
+paho-mqtt>=1.6.1,<2.1.0
+requests>=2.28.0
+
+# Machine Learning & Numerical Inference
+numpy>=1.22.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+
+# Raspberry Pi Physical Hardware Interfaces (Linux Only)
+smbus2>=0.4.2; platform_system == "Linux"
+RPi.GPIO>=0.7.1; platform_system == "Linux"
+
